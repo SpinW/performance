@@ -1,0 +1,4 @@
+Function	Duration (s)
+spinwave	4.1350e-01
+sw_egrid	5.7995e-02
+sw_instrument	3.6101e-02
