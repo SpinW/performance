@@ -1,0 +1,27 @@
+                         FunctionName                          NumCalls    TotalTime    TotalMemAllocated    TotalMemFreed     PeakMem     PercentageTime    SelfTime     SelfPercentageTime
+    ________________________________________________________    ________    _________    _________________    _____________    _________    ______________    _________    __________________
+
+     'swpref.swpref>swpref.swpref'                                 14          5.2336                0                  0              0         0.84881         1.1582           0.18785    
+     '@swpref\private\datastruct'                                  14          0.8919                0                  0              0         0.14465         0.8919           0.14465    
+     'swpref.swpref>swpref.set_data'                              154          2.9875                0                  0              0         0.48453        0.22614          0.036676    
+     'swpref.swpref>swpref.get_data'                                4       0.0035905                0                  0              0      0.00058233      0.0015269        0.00024764    
+     'swpref.swpref>swpref.get_set_static'                        172         0.11115                0                  0              0        0.018027        0.11115          0.018027    
+     'swpref.swpref>swpref.check_names'                           158        0.077063                0                  0              0        0.012499       0.077063          0.012499    
+     '@swpref\private\datastruct>mustBeInteger'                    84         0.40744                0                  0              0        0.066081        0.40744          0.066081    
+     '@swpref\private\datastruct>mustBeNonnegative'                84       0.0039588                0                  0              0      0.00064206      0.0039588        0.00064206    
+     '@swpref\private\datastruct>@(x)check_size(x,Size 1 )'        14        0.024395                0                  0              0       0.0039566       0.019915           0.00323    
+
+                               :                                   :            :                :                  :              :              :               :                :         
+
+     'strtok'                                                       1       0.0086108                0                  0              0       0.0013966      0.0027417        0.00044467    
+     'strtok>doStrtok'                                              1       0.0058691                0                  0              0      0.00095189      0.0058691        0.00095189    
+     'sw_parstr'                                                    1        0.027073                0                  0              0       0.0043908       0.018462         0.0029943    
+     'sumn'                                                         1       0.0076524                0          1.099e+07              0       0.0012411      0.0076524         0.0012411    
+     'sw_resconv'                                                   1        0.020972                0                  0              0       0.0034013       0.016933         0.0027463    
+     'gaussfwhm'                                                    1       0.0040388                0                  0              0      0.00065504      0.0040388        0.00065504    
+     'BiFeO3'                                                       1          616.57       2.1304e+10         2.1304e+10      1.521e+09          99.999       0.000191        3.0978e-05    
+     'run'                                                          1          616.57       2.1304e+10         2.1304e+10      1.521e+09             100      0.0014689        0.00023824    
+     'run_performance_tests'                                        1          616.57       2.1304e+10         2.1304e+10      1.521e+09             100      0.0023589        0.00038258    
+
+	Display all 94 rows.
+
