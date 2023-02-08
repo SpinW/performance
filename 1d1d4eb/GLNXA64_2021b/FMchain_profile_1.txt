@@ -1,2 +1,2 @@
 # Timings given as avg(stdev) in seconds for each function (see col. headers)
-Test Dir.	spinwave	sw_egrid	sw_instrument	
+Test Dir.                         	spinwave              	sw_egrid              	sw_instrument         
