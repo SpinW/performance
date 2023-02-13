@@ -18,3 +18,8 @@ https://github.com/SpinW/spinw/blob/2341834ca326acaf7ff15896ef98d8594015dca4/swf
 - There are a handful of other matrix multiplication operations that each account for (2-5% of the execution time) that could be improved by using mex function sw_mtimesx if mex is enabled. For example
 
 https://github.com/SpinW/spinw/blob/2341834ca326acaf7ff15896ef98d8594015dca4/swfiles/%40spinw/spinwave.m#L862
+
+# profile results
+Tests produce a number of .txt files that summaries the execution time of spinwave (and possibly other functions). In general each test will perform a claculation with different input parameters - the results for different input parameters are saved in separate directories named as so `TestName_param_1_value1_param2_value2` (e.g. `FMchain_mex_0_hermit_0_optmem_10`). Note that boolean values are cast to int (e.g. `True = 1`). A single test with the same set of parameters is often run multiple times with the reuslts saved in a separate numbered sub-directory that increments (`01`, `02` etc.). A test can be run with the MATLAB profiling enabled, in which case .html files will be saved that contains the time spent on each line of every .m file called (one file per .m file and a summary). In addiiton to profile results there are tic/toc timings that are saved to files with filenames `tictoc_times_profile_0.txt` - where the last number represents a bool `True/False`.
+The tic/toc timings over multiple test runs can be averaged by calling `average_profile_timings.m`.
+
